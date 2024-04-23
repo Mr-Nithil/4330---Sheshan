@@ -17,7 +17,7 @@ pipeline {
         }
          stage('run'){
             steps{
-                sh 'docker run -d -p 5000:3000 nithilsheshan/4330-sheshan.'
+                sh 'docker run -d -p 5000:3000 nithilsheshan/4330-sheshan .'
          }
          }
          stage('show running containners'){
