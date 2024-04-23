@@ -11,7 +11,7 @@ pipeline {
         }
         stage('build docker'){
             steps {
-                sh 'docker build -t  nithilsheshan/4330-sheshan.'
+                sh 'docker build -t  nithilsheshan/4330-sheshan .'
             }
         
         }
